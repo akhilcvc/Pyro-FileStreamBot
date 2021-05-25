@@ -145,7 +145,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [🧿GROUP🧿](https://t.me/linux_repo).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
