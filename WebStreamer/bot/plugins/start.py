@@ -1,4 +1,4 @@
-# (c) @EverythingSuckz | @AbirHasan2005
+# (c) @EverythingSuckz | @FILMWORLDOFFICIA
 
 from WebStreamer.bot import StreamBot
 from WebStreamer.vars import Var
@@ -26,7 +26,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [🧿Group🧿](https://t.me/FILM_WORL).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -38,7 +38,7 @@ async def start(b, m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Join Update Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
