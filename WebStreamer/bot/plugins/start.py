@@ -38,7 +38,7 @@ async def start(b, m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Join Update Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Join Update Channel💫", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
@@ -53,11 +53,11 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
+            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot🚀 Exclusively Made For @FILM_WORL 💫.\n\nSend me any file & see the magic!',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Discovery_Updates'), InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')]
+                    [InlineKeyboardButton('⭕CHANNEL⭕', url='https://t.me/joinchat/VtTZc5al3Vt0te9_'), InlineKeyboardButton('🧿GROUP🧿', url='https://t.me/FILM_WORL')],
+                    [InlineKeyboardButton('MY DEVELOPER🙋', url='https://t.me/FILMWORLDOFFICIA')]
                 ]
             ),
             disable_web_page_preview=True
@@ -85,7 +85,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/AH_File2Link_Bot?start=AbirHasan2005_{usr_cmd}")
+                                                     url=f"https://t.me/AH_File2Link_Bot?start=FILMWORLDOFFICIA_{usr_cmd}")
                             ]
                         ]
                     ),
@@ -123,11 +123,11 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.message_id)
 
-        msg_text = "Bruh! 😁\nYour Link Generated! 🤓\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`"
+        msg_text = "Bruh! 😁\nYour Link Generated! 🤓\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`\n\n💫 **Credit:** @FILM_WORL"
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Download Now", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥DOWNLOAD NOW", url=stream_link)]])
         )
 
 
