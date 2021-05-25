@@ -167,7 +167,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/FILM_WORL).",
+                text="Something went Wrong. Contact my [🧿GROUP🧿](https://t.me/FILM_WORL).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -177,8 +177,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("🧿GROUP🧿", url="https://t.me/linux_repo"), InlineKeyboardButton("⭕CHANNEL⭕", url="https://t.me/Discovery_Updates")],
+                [InlineKeyboardButton("My dev 🙋", url="https://t.me/AbirHasan2005")]
             ]
         )
     )
