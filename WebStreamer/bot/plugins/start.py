@@ -177,8 +177,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🧿GROUP🧿", url="https://t.me/linux_repo"), InlineKeyboardButton("⭕CHANNEL⭕", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("My dev 🙋", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("🧿GROUP🧿", url="https://t.me/FILM_WORL"), InlineKeyboardButton("⭕CHANNEL⭕", url="https://t.me/joinchat/VtTZc5al3Vt0te9_")],
+                [InlineKeyboardButton("My dev 🙋", url="https://t.me/FILMWORLDOFFICIA")]
             ]
         )
     )
